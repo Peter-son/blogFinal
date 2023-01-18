@@ -1,6 +1,7 @@
 <?php
 
 require 'config.php';
+//require 'src/Views/ModeloHeader.php';
 require 'src/DAO/PostDAO.php';
 require 'Autentica.php';
 
@@ -10,22 +11,19 @@ $posts = $obj_post->exibeTodos();
 
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <title>Publicações</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <link type="text/css" rel="stylesheet" href="src/css/materialize.css"/>
- <!--   <link type="text/css" rel="stylesheet" href="src/css/perfumaria.css"/>!-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script type="text/javascript" src="src/js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="src/js/materialize.min.js"></script>
   <script type="text/javascript" src="src/js/web.js"></script>
 </head>
 
-<body>
-<nav class=" teal darken-2">
+  <nav class=" teal darken-2">
        <div class="nav-wrapper">
          <a href="index.php" class="brand-logo">Blog da Mentoria</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -51,7 +49,9 @@ $posts = $obj_post->exibeTodos();
                     </ul>        
        </div>
      </nav>
+
      
+     <body>
     <div id="container">
     <?php foreach($posts as $post) : ?>
         <h3>

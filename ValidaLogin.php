@@ -14,8 +14,7 @@ require 'src/DAO/UsuarioDAO.php';
       }else if ($usuarioD->Login($email, $senha)) {
         $valores = $usuarioD->Login($email, $senha);
        
-        echo "Tudo ok";
-           session_start();
+                session_start();
             $_SESSION['id'] = $valores['id'];// 
          $_SESSION['email'] = $valores['email'];//
           $_SESSION['senha'] = $valores['senha'];//

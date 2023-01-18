@@ -1,8 +1,5 @@
 <?php
 
-//require 'src/Model/Post.php';
-
-
 class PostDAO{
 
     private $mysql;

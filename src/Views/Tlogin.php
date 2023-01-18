@@ -9,13 +9,15 @@
     <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="../js/materialize.min.js"></script>
 </head> 
-<body>
-	  <nav class="barra-inicio">
-     <nav class=" teal darken-2">
+
+<header>
+	    <nav class=" teal darken-2">
        <div class="nav-wrapper">
          <a href="#" class="brand-logo">Blog da Mentoria</a>
       </div>
       </nav>
+</header>
+      <body>
                   <form action="http://localhost/blogfinal/ValidaLogin.php" method="post">
  <div class="container">
   <div class="row">
@@ -45,6 +47,5 @@
 </div>
 </div>
 </form>
-</nav>
 </body>
 </html>

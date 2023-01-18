@@ -5,7 +5,7 @@ require '../../redireciona.php';
 
 if($_SERVER['REQUEST_METHOD'] === 'POST'){
   $usuarioD = new UsuarioDAO(($mysql));
-  var_dump($_POST['nome'], $_POST['email'], $_POST['senha']);
+  //var_dump($_POST['nome'], $_POST['email'], $_POST['senha']);
  $usuarioD->inserir($_POST['nome'], $_POST['email'], $_POST['senha'], $_POST['tipoUsuario']);
   
   redireciona('/blogfinal/index.php');
@@ -26,7 +26,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 </head> 
 <body>
 
-	<nav class="barra-inicio">
      <nav class=" teal darken-2">
        <div class="nav-wrapper">
          <a href="index.php" class="brand-logo">Blog da Mentoria</a>
@@ -74,6 +73,5 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 </div>
 </div>
 </div>
-</nav>
 </body>
 </html>

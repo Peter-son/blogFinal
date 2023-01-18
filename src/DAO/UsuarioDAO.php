@@ -1,7 +1,5 @@
 <?php
 
-//require '../Model/Usuario.php';
-
 class UsuarioDAO{
 
     private $mysql;
