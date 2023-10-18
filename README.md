@@ -20,7 +20,7 @@ Projeto final de uma mentoria para iniciação no ambiente web, desenvolvido com
 
 # 🛠️ Instruções necessárias para abrir e executar o projeto:
 - `Local onde o projeto deve ser alocado:` dentro da pasta htdocs (xampp\htdocs);
-- `Para importarn a base de dados:` dentro do diretório do proejto (src/Banco_de_dados), existe o arquivo com o backup do banco de dados, para importação;
+- `Para importarn a base de dados:` dentro do diretório do projeto (src/Banco_de_dados), existe o arquivo com o backup do banco de dados, para importação;
 
 ## 🔍 Funcionamento do sistema:
 Para inicializar o servidor local e o banco de dados mysql, no painel de controle do XAMPP, é necessário apertar o botão de 'start' nas opções *Apache e MYSQL*. Após realizar estes procedimentos, o próximo passo é digitar na barra de pesquisa de um navegador os seguintes valores: 'localhost/blogfinal', para que dessa maneira o sistema seja visível e apto a interações.
